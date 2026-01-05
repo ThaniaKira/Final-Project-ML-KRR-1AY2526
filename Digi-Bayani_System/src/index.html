@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digi-Bayani - Tweet Informativeness Classifier</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="logo-container">
+                <span class="logo-icon">🌊</span>
+                <h1>Digi-Bayani</h1>
+            </div>
+            <p class="subtitle">Typhoon & Flood Tweet Intelligence System</p>
+        </header>
+
+        <main>
+            <div class="input-section">
+                <label for="tweetInput">Enter Tweet Text:</label>
+                <textarea 
+                    id="tweetInput" 
+                    placeholder="Type or paste your tweet here..."
+                    rows="6"
+                ></textarea>
+                
+                <button id="classifyBtn" class="classify-btn">
+                    <span class="btn-text">Classify Tweet</span>
+                    <span class="spinner" style="display: none;">⏳</span>
+                </button>
+            </div>
+
+            <div id="resultSection" class="result-section" style="display: none;">
+                <h2>Classification Result</h2>
+                <div id="resultContent" class="result-content"></div>
+            </div>
+
+            <div id="errorSection" class="error-section" style="display: none;">
+                <p id="errorMessage"></p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Powered by Machine Learning • 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

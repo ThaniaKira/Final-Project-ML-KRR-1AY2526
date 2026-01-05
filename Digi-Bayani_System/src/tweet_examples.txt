@@ -1,0 +1,72 @@
+========================================
+TWEET EXAMPLES FOR DIGI-BAYANI TESTING
+========================================
+
+✅ DISASTER-RELATED TWEETS (Expected: Disaster-Related)
+--------------------------------------------------------
+
+1. "Typhoon Kristine approaching Manila. Heavy rainfall expected in 3 hours. Stay indoors and prepare emergency kits."
+
+2. "PAGASA issues flood warning for northern provinces. Water levels rising rapidly in Cagayan River."
+
+3. "Massive flooding in Marikina. Rescue teams are on standby. Residents advised to evacuate immediately."
+
+4. "Storm signal #3 raised over Metro Manila. Classes and work suspended. Stay safe everyone!"
+
+5. "Landslide reported in Baguio City. Road blocked. Emergency responders are on the scene."
+
+6. "RED CROSS seeking volunteers for typhoon relief operations. Donate now to help affected families."
+
+7. "UPDATE: 15 families evacuated from coastal areas due to storm surge threat."
+
+
+❌ NOT DISASTER-RELATED TWEETS (Expected: Not Disaster-Related)
+----------------------------------------------------------------
+
+1. "I love pizza! Just had the best slice at my favorite restaurant #foodie"
+
+2. "Happy birthday to my best friend! Let's celebrate tonight! 🎉🎂"
+
+3. "Just finished watching an amazing Netflix series. Highly recommend!"
+
+4. "Good morning everyone! Time for coffee ☕ Have a great day!"
+
+5. "Shopping at the mall today. Found some cute clothes on sale!"
+
+6. "Workout complete! Feeling energized and healthy 💪 #fitness"
+
+7. "Finally weekend! Movie marathon with the family tonight 🍿"
+
+
+⚠️ UNCERTAIN / NEEDS REVIEW (Expected: Uncertain / Needs Review)
+-----------------------------------------------------------------
+
+1. "Stay safe everyone"
+
+2. "Update please"
+
+3. "What's happening?"
+
+4. "Everyone be careful today"
+
+5. "Hi"
+
+6. "Ready for anything"
+
+7. "Take care"
+
+
+========================================
+HOW TO TEST:
+========================================
+
+1. Start the Flask backend:
+   python flask_app.py
+
+2. Open index.html in your browser
+
+3. Copy and paste each tweet example above
+
+4. Click "Classify Tweet" to see the results
+
+5. Verify that you get different classifications for different types of tweets
